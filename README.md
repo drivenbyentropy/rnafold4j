@@ -39,6 +39,16 @@ If you want to integrate `RNAFold4J` in your own pipeline, you can use the provi
     // Returns linearized upper trianguar matrix
     double[] bppm = rfa.getBppm(seq);
 	}
-
-
 ```
+
+## Precomiled Jar File
+Please see the [release section](https://github.com/drivenbyentropy/rnafold4j/releases) for the most recent version of RNAFold4J.
+
+## Compile From Source
+RNAFold4j is a maven project:
+```
+git clone https://github.com/drivenbyentropy/rnafold4j.git
+cd rnafold4j
+mvn package
+```
+The compiled jar file can then be found in `target\rnafold4j.jar`
