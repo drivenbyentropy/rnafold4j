@@ -20,8 +20,8 @@ where the individual options correspond to the RNAFold parameters (see the [offi
 ## RNAFold4J API
 If you want to integrate `RNAFold4J` in your own pipeline, you can use the provided API as such
 ```java
-  import lib.structure.rnafold.MFEData;
-  import lib.structure.rnafold.RNAFoldAPI;
+  import rnafold4j.MFEData;
+  import rnafold4j.RNAFoldAPI;
 
 	public static void main(String[] args) {
 		
