@@ -38,6 +38,7 @@ If you want to integrate `RNAFold4J` in your own pipeline, you can use the provi
     // Predict the base pair probability matrix (equivalent to using the -p option).
     // Returns linearized upper trianguar matrix
     double[] bppm = rfa.getBppm(seq);
+    
   }
 ```
 
