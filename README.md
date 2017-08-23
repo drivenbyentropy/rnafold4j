@@ -23,7 +23,7 @@ If you want to integrate `RNAFold4J` in your own pipeline, you can use the provi
   import rnafold4j.MFEData;
   import rnafold4j.RNAFoldAPI;
 
-	public static void main(String[] args) {
+  public static void main(String[] args) {
 		
     // The sequence to be predicted
     byte[] seq = new String("GUGACGUGUGCAAAUGUGACGUGUGCAAAUGUGACGUGUGCAAAU").getBytes();
@@ -38,7 +38,7 @@ If you want to integrate `RNAFold4J` in your own pipeline, you can use the provi
     // Predict the base pair probability matrix (equivalent to using the -p option).
     // Returns linearized upper trianguar matrix
     double[] bppm = rfa.getBppm(seq);
-	}
+  }
 ```
 
 ## Precomiled Jar File
