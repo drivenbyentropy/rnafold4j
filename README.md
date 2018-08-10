@@ -1,7 +1,7 @@
 # RNAFold4J
 ## A Java port of RNAFold from the ViennaRNA package
 
-RNAFold4J is a port of the RNAFold program from the ViennaRNA package (v1.8.5) for Java. It requires no external depencies is hence platform independent. In addition, an API is available which allows for the integration of RNAFold4J into bioinformatics pipelines in a programmatic manner. 
+RNAFold4J is a port of the RNAFold program from the ViennaRNA package (v1.8.5) for Java. It requires no external depencies and is hence platform independent. In addition, an API is available which allows for the integration of RNAFold4J into bioinformatics pipelines in a programmatic manner. 
 
 **Disclaimer: RNAFold is implemented and developed by Ivo L Hofacker et al. as part of the ViennaRNA package. All intellectual credits of this work go to the original authors and the Institute for Theoretical Chemistry of the University of Vienna. My only contribution is the adaptation of the C source code to Java.**
 
